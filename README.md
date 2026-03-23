@@ -51,10 +51,4 @@ The analysis focuses on:
 
 ---
 
-## ▶️ How to Run
 
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-pip install pandas numpy matplotlib seaborn
-jupyter notebook
