@@ -1,29 +1,60 @@
-# Netflix-Movies-and-Shows-Analysis
-This project analyzes the Netflix Movies and TV Shows dataset to uncover insights about content available on the platform. The analysis focuses on understanding trends in content type, release years, genres, and geographic distribution.
+# 📺 Netflix Movies and Shows Analysis
 
-📊 Columns Description
-index – Row index
-id – Unique content identifier
-title – Name of the movie or TV show
-type – Content type (Movie or TV Show)
-description – Brief summary of the content
-release_year – Year of release
-age_certification – Age rating (e.g., PG, R)
-runtime – Duration in minutes
-imdb_id – IMDb identifier
-imdb_score – IMDb rating
-imdb_votes – Number of IMDb votes
-🛠️ Technologies Used
-Python
-Jupyter Notebook
-Pandas
-NumPy
-Matplotlib / Seaborn
-📊 Analysis Performed
-Data cleaning and preprocessing
-Handling missing values
-Distribution of Movies vs TV Shows
-Analysis of IMDb scores
-Runtime analysis
-Release year trends
-Popularity based on IMDb votes
+## 📌 Overview
+This project analyzes a dataset of Netflix movies and TV shows to uncover insights about content available on the platform.
+
+The analysis focuses on:
+- Content type distribution (Movies vs TV Shows)
+- Release year trends
+- IMDb ratings and popularity
+- Runtime analysis
+
+---
+
+## 📂 Dataset
+
+**File:** `Netflix TV Shows and Movies.csv`
+
+### Columns:
+- `index` – Row index  
+- `id` – Unique content identifier  
+- `title` – Name of the movie or TV show  
+- `type` – Movie or TV Show  
+- `description` – Content summary  
+- `release_year` – Year of release  
+- `age_certification` – Age rating (PG, R, etc.)  
+- `runtime` – Duration in minutes  
+- `imdb_id` – IMDb identifier  
+- `imdb_score` – IMDb rating  
+- `imdb_votes` – Number of votes  
+
+---
+
+## 🛠️ Technologies Used
+- Python  
+- Jupyter Notebook  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+
+---
+
+## 📊 Analysis Performed
+- Data cleaning and preprocessing  
+- Handling missing values  
+- Movies vs TV Shows distribution  
+- IMDb score analysis  
+- Runtime analysis  
+- Release year trends  
+- Popularity based on IMDb votes  
+
+---
+
+## ▶️ How to Run
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+pip install pandas numpy matplotlib seaborn
+jupyter notebook
